@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Apeiron</title>
+  <link rel="icon" href="images/logo1.png">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="home1.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="section section1" data-light-bg="images/light_portal.gif" data-dark-bg="images/portal.gif">
+    <div class="container"></div>
+    <header>
+      <img class="logo" href="index.html" src="images/APEIRON (1).png">
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#petitionpage">Petition</a></li>
+          <li><a href="mailto: alvinchen032006@gmail.com">Contact</a></li>
+          <li><button id="theme-button">Toggle</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="text-container">
+      <p class="text">From Dreams to Infinity</p>
+    </div>
+  </section>
+
+  <div class="between"></div>
+
+  <section class="section section2" data-light-bg="images/light_city.gif" data-dark-bg="images/city.gif">
+    <h2>Check Out!</h2>
+
+    <div class="col">
+      <a href="https://www.linkedin.com/in/alv1nchen/" class="card card1">
+        <h1>Founder</h1>
+      </a>
+
+      <a href="fgli.html" class="card card2">
+        <h1>FGLI Programs</h1>
+      </a>
+
+      <a href="ss.html" class="card card3">
+        <h1>Success Stories</h1>
+      </a>
+
+      <a href="https://www.paypal.com/paypalme/my/profile" class="card card4">
+        <h1>Donate</h1>
+      </a>
+    </div>
+  </section>
+
+  <div class="between"></div>
+
+  <section id="video" class="section" data-light-bg="images\car.gif" data-dark-bg="images/car.gif">
+    <h2>The Potential of the Unfortunate</h2>
+    <div>
+      <iframe width="800" height="600" src="https://www.youtube.com/embed/R-fekuov5Wk"></iframe>
+    </div>
+  </section>
+
+  <div class="between"></div>
+
+  <section id="petitionpage" class="section" data-light-bg="images/light_beach.gif" data-dark-bg="images/beach.gif">
+    <div class="petition-container">
+      <div class="cta">
+        <h2>Invest In All Kids!</h2>
+        <p>This petition advocates for a more equal distribution of resources in the Chicago high schools. In the last decade, a majority of the Chicago Public School resources have been centered around the Selective Enrollment schools, making local neighborhood schools lose out on resources that could contribute to many students' education. Sign to help these kids reach their potential.</p>
+      </div>
+      <div class="form-container">
+        <form id="petitionForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date">
+          <button type="submit">Sign Now</button>
+        </form>
+        <div id="signatureList">
+          <h3>Signatures</h3>
+          <ul id="signatures"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="thankYouModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <p>Thank you for signing the petition!</p>
+      <img src="images/thankyou.gif" alt="Thank you!" class="modal-image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

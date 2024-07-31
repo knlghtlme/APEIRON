@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/plant.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar li a {
+  transition: all 0.3s ease 0s;
+  color: rgb(0, 255, 115);
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
+
+.navbar li a:hover {
+  color: pink;
+}
+
+.head2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Silkscreen", sans-serif;
+  text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.program-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px 50px;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.program {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  flex: 0 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  font-family: "Silkscreen", sans-serif;
+  box-shadow: 0 0 40px;
+  text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+  font-size: 15px;
+}
+
+.program img {
+  width: 50%;
+  height: auto;
+}
+
+.program p {
+  color: black;
+
+}
+
+.program1 {
+  box-shadow: 0 0 20px red;
+  color: red;
+}
+
+.program2 {
+  box-shadow: 0 0 20px yellow;
+  color: gold;
+}
+
+.program3 {
+  box-shadow: 0 0 20px green;
+  color: green;
+}
+
+.program4 {
+  box-shadow: 0 0 20px blue;
+  color: blue;
+}
+
+.program5 {
+  box-shadow: 0 0 20px purple;
+  color: purple;
+}
+
+.program6 {
+  box-shadow: 0 0 20px brown;
+  color: brown;
+}
